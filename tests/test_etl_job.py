@@ -6,6 +6,11 @@ This module contains unit tests for the transformation steps of the ETL
 job defined in etl_job.py. It makes use of a local version of PySpark
 that is bundled with the PySpark package.
 """
+
+
+import sys
+sys.path.insert(0,'/home/jovyan/pyspark-example-project')
+
 import unittest
 
 import json
